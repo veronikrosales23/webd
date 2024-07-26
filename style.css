@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*
+font-family: "Bebas Neue", sans-serif;
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161815;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)),
+      url(images/nature.jpg);
+      background-position: center center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      
+}
+
+.menu {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 1000;
+}
+
+.logo {
+   font-size: 25px;
+   color: #FFFFFF;
+   font-weight: bold;
+   text-transform: uppercase;
+   
+}
+   
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 19px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+     color: #1397;
+}
+
+#menu {
+    display: none;
+}
+  
+.menu-icono {
+     width: 25px;
+}
+
+.menu label {
+     cursor: pointer;
+     display: none;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-txt {
+    width: 75%;
+}
+
+.header-txt h1 {
+    font-size: 116px;
+    line-height: 131px;
+    color: rgba(187, 255, 181, 0.863);
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 15px 34px;
+    background-color: rgba(109, 109, 109, 0.952);
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-size: 21px;
+}
+
+.btn-1:hover {
+     background-color: #68ff1c7a;
+}
+
+.header-img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.header-img a {
+    margin-bottom: 12%;
+}
+.tours {
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 1px;
+    font-size: 80px;
+    line-height: 95px;
+    color: rgba(187, 255, 181, 0.863);
+    margin-bottom: 16px;
+}
+
+p {
+   font-size: 20px;
+   color:#c0c0c0;
+}
+
+.tour-content {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 60px;
+}
+
+.tour-1 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),
+        url(images/001.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+        margin-bottom: 20px;
+}
+
+
+.tour-2 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),
+        url(images/002.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+        margin-bottom: 20px;
+}
+
+
+.tour-3 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),
+        url(images/003.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+        margin-bottom: 20px;
+}
+
+
+.tour-4 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),
+        url(images/004.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+        margin-bottom: 20px;
+}
+
+.tour-txt h3 {
+   font-family: "Yeseva One", serif;
+   font-size: 37px;
+   color: #e6e200dc;
+   margin-bottom: 16px;
+}
+
+.tour-txt p {
+    color: #ffffff;
+    font-family: "Parisienne";
+    margin-bottom: 25px;
+}
+
+.video {
+    padding: 120px 10;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(images/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-content {
+    display: flex;
+    align-items: center;
+}
+
+.video-1 {
+    width: 50%;
+    padding-right: 70px;
+}
+
+.video-2 {
+   width: 50%;
+   display: flex;
+}
+
+.v1 {
+     width: 300px;
+     margin-right: 25px;
+     border-radius: 10px;
+}
+
+.v2 {
+     width: 300px;
+     border-radius: 10px;
+}
+
+.footer-bg {
+    text-align: center;
+    padding: 100px 0;
+}
+
+form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.campo-1 {
+    margin-bottom: 18px;
+}
+
+.campo {
+    margin: 8px;
+    padding: 20px 18px;
+    width: 250px;
+    background-color: #000000dc;
+    border: 1px solid rgba(167, 255, 51, 0.877);
+    outline: none;
+    border-radius: 7px;
+    color:rgba(255, 255, 255, 0.966);
+    font-size: 16px;
+}
+
+textarea {
+    width: 500px !important;
+}
+
+.footer-txt {
+     text-align: center;
+     padding: 18px;
+     background-color: rgb(59, 59, 58);
+}
+
+
+
+@media(max-width:991px) {
+     
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.829);
+        display: none;
+    }
+    
+    .menu .navbar ul li {
+        width:100%;
+    }
+    
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+         min-height: 0vh;
+    }
+   
+    .header-content {
+         flex-direction: column;
+         padding: 100px 30px 30px 30px;
+    }
+
+    .header-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-txt h1 {
+        font-size: 70px;
+        line-height: 90px;
+        margin-bottom: 15px;
+    }
+
+    .header-txt p{
+         border: 0;
+         padding: 0;
+         margin-bottom: 16px;
+    }
+
+    .btn-1 {
+        margin: 20px 0;
+    }
+
+    .header-img {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 23px;
+    }
+
+    .header-img a {
+         margin: 0 6px;
+    }
+
+    .tours {
+        padding: 28px;
+    }
+
+    h2 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .tour-content {
+           flex-direction: column;
+           align-items: center;
+           margin-top: 27px;
+    }
+
+    .video {
+        padding: 26px;
+    }
+    
+    .video-content {
+        flex-direction: column;
+    }
+
+    .video-1 {
+        width: 99%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .video-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .v1, .v2 {
+        width: 250px;
+        margin: 0 0 17px 0;
+    }
+
+    .footer-bg {
+        padding: 24px;
+    }
+
+    textarea {
+        width: 246px !important;
+    }
+
+    .footer-txt {
+        padding: 30px;
+    }
+}
